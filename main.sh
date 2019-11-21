@@ -150,14 +150,6 @@ read_resMenu(){
 }
 
 
-
-
-
-
-
-
-
-
 compareFiles(){
   for f in "$FILES"/homeBk/*
     do
@@ -171,17 +163,6 @@ compareFiles(){
     echo
 }
 
-
-
-
-
-
-
-
-recomp (){
-  dos2unix main.sh
-  ./main.sh
-}
 
 trap '' SIGINT SIGQUIT SIGTSTP
 
