@@ -182,14 +182,10 @@ recomp (){
   dos2unix main.sh
   ./main.sh
 }
-# ----------------------------------------------
-# Step #3: Trap CTRL+C, CTRL+Z and quit singles
-# ----------------------------------------------
+
 trap '' SIGINT SIGQUIT SIGTSTP
 
-# -----------------------------------
-# Step #4: Main logic - infinite loop
-# ------------------------------------
+
 while true
 do
 	backtoMenu
